@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 5vStep)(type Legacy)(uri ${KIPRJMOD}/5vStep.lib)(options "")(descr ""))
+  (lib (name 5vstep)(type Legacy)(uri "C:/KiCAD/PoE Speaker v1/PoESpeakerPrj/PoESpeak.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J3
+U 1 1 5C9EE701
+P 2700 4450
+F 0 "J3" H 2755 5117 50  0000 C CNN
+F 1 "RJ45" H 2755 5026 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2700 4475 50  0001 C CNN
+F 3 "~" V 2700 4475 50  0001 C CNN
+	1    2700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J6
+U 1 1 5C9EE7B7
+P 4200 4450
+F 0 "J6" H 4255 5117 50  0000 C CNN
+F 1 "RJ45" H 4255 5026 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4200 4475 50  0001 C CNN
+F 3 "~" V 4200 4475 50  0001 C CNN
+	1    4200 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4750 3800 4750
+Wire Wire Line
+	3800 4650 3100 4650
+Wire Wire Line
+	3100 4550 3800 4550
+Wire Wire Line
+	3100 4250 3800 4250
+NoConn ~ 3800 4350
+NoConn ~ 3800 4450
+NoConn ~ 3100 4450
+NoConn ~ 3100 4350
+NoConn ~ 3100 4150
+NoConn ~ 3100 4050
+NoConn ~ 3800 4050
+NoConn ~ 3800 4150
+$Comp
+L Connector:RJ45 J2
+U 1 1 5C9EEC47
+P 2650 3250
+F 0 "J2" H 2705 3917 50  0000 C CNN
+F 1 "RJ45" H 2705 3826 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2650 3275 50  0001 C CNN
+F 3 "~" V 2650 3275 50  0001 C CNN
+	1    2650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J5
+U 1 1 5C9EEC4E
+P 4150 3250
+F 0 "J5" H 4205 3917 50  0000 C CNN
+F 1 "RJ45" H 4205 3826 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4150 3275 50  0001 C CNN
+F 3 "~" V 4150 3275 50  0001 C CNN
+	1    4150 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3550 3750 3550
+Wire Wire Line
+	3750 3450 3050 3450
+Wire Wire Line
+	3050 3350 3750 3350
+Wire Wire Line
+	3050 3050 3750 3050
+NoConn ~ 3750 3150
+NoConn ~ 3750 3250
+NoConn ~ 3050 3250
+NoConn ~ 3050 3150
+NoConn ~ 3050 2950
+NoConn ~ 3050 2850
+NoConn ~ 3750 2850
+NoConn ~ 3750 2950
+$Comp
+L Connector:RJ45 J1
+U 1 1 5C9EED79
+P 2650 2050
+F 0 "J1" H 2705 2717 50  0000 C CNN
+F 1 "RJ45" H 2705 2626 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2650 2075 50  0001 C CNN
+F 3 "~" V 2650 2075 50  0001 C CNN
+	1    2650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:RJ45 J4
+U 1 1 5C9EED80
+P 4150 2050
+F 0 "J4" H 4205 2717 50  0000 C CNN
+F 1 "RJ45" H 4205 2626 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4150 2075 50  0001 C CNN
+F 3 "~" V 4150 2075 50  0001 C CNN
+	1    4150 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2350 3750 2350
+Wire Wire Line
+	3750 2250 3050 2250
+Wire Wire Line
+	3050 2150 3750 2150
+Wire Wire Line
+	3050 1850 3750 1850
+NoConn ~ 3750 1950
+NoConn ~ 3750 2050
+NoConn ~ 3050 2050
+NoConn ~ 3050 1950
+NoConn ~ 3050 1750
+NoConn ~ 3050 1650
+NoConn ~ 3750 1650
+NoConn ~ 3750 1750
+$EndSCHEMATC
