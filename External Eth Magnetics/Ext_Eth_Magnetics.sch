@@ -1,0 +1,101 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J1
+U 1 1 5CDD4D20
+P 4300 3650
+F 0 "J1" H 4355 4317 50  0000 C CNN
+F 1 "RJ45" H 4355 4226 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4300 3675 50  0001 C CNN
+F 3 "~" V 4300 3675 50  0001 C CNN
+	1    4300 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:RJ45 J2
+U 1 1 5CDD4E0C
+P 7100 3650
+F 0 "J2" H 7155 4317 50  0000 C CNN
+F 1 "RJ45" H 7155 4226 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 7100 3675 50  0001 C CNN
+F 3 "~" V 7100 3675 50  0001 C CNN
+	1    7100 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L My_Library:S558-5500-25-F T1
+U 1 1 5CDD5195
+P 5700 3700
+F 0 "T1" H 5700 4275 50  0000 C CNN
+F 1 "S558-5500-25-F" H 5700 4184 50  0000 C CNN
+F 2 "My Library:S558-5500-25-F" H 5750 4200 50  0001 C CNN
+F 3 "" H 5750 4200 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3350 4700 3350
+Wire Wire Line
+	4700 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 3550
+Wire Wire Line
+	5200 3550 5300 3550
+Wire Wire Line
+	5300 3850 5100 3850
+Wire Wire Line
+	5100 3850 5100 3550
+Wire Wire Line
+	5100 3550 4700 3550
+Wire Wire Line
+	5300 4050 5000 4050
+Wire Wire Line
+	5000 4050 5000 3850
+Wire Wire Line
+	5000 3850 4700 3850
+Wire Wire Line
+	6700 3350 6100 3350
+Wire Wire Line
+	6100 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3450
+Wire Wire Line
+	6200 3450 6700 3450
+Wire Wire Line
+	6100 3850 6300 3850
+Wire Wire Line
+	6300 3850 6300 3550
+Wire Wire Line
+	6300 3550 6700 3550
+Wire Wire Line
+	6100 4050 6400 4050
+Wire Wire Line
+	6400 4050 6400 3850
+Wire Wire Line
+	6400 3850 6700 3850
+NoConn ~ 6700 3750
+NoConn ~ 6700 3650
+NoConn ~ 6700 4050
+NoConn ~ 6700 3950
+NoConn ~ 6100 3950
+NoConn ~ 5300 3950
+NoConn ~ 5300 3450
+NoConn ~ 6100 3450
+NoConn ~ 4700 3950
+NoConn ~ 4700 4050
+NoConn ~ 4700 3750
+NoConn ~ 4700 3650
+$EndSCHEMATC
