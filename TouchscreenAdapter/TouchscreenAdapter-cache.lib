@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Barrel_Jack
+# Connector_Barrel_Jack
 #
-DEF Connector:Barrel_Jack J 0 40 Y Y 1 F N
+DEF Connector_Barrel_Jack J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "Connector:Barrel_Jack" 0 -200 50 H V C CNN
+F1 "Connector_Barrel_Jack" 0 -200 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 ALIAS Jack-DC
@@ -24,11 +24,11 @@ X ~ 2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x02_Male
+# Connector_Conn_01x02_Male
 #
-DEF Connector:Conn_01x02_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +44,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x40_Male
+# Connector_Conn_01x40_Male
 #
-DEF Connector:Conn_01x40_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x40_Male J 0 40 Y N 1 F N
 F0 "J" 0 2000 50 H V C CNN
-F1 "Connector:Conn_01x40_Male" 0 -2100 50 H V C CNN
+F1 "Connector_Conn_01x40_Male" 0 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -178,28 +178,11 @@ X Pin_9 9 200 1100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:TestPoint
+# Connector_Generic_Conn_01x04
 #
-DEF Connector:TestPoint TP 0 30 N N 1 F N
-F0 "TP" 0 270 50 H V C CNN
-F1 "Connector:TestPoint" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x04
-#
-DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -218,11 +201,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x10_Odd_Even
+# Connector_Generic_Conn_02x10_Odd_Even
 #
-DEF Connector_Generic:Conn_02x10_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x10_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "Connector_Generic:Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
+F1 "Connector_Generic_Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -273,11 +256,28 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Connector_TestPoint
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -291,11 +291,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D_Schottky
+# Device_D_Schottky
 #
-DEF Device:D_Schottky D 0 40 N N 1 F N
+DEF Device_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Schottky" 0 -100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -313,11 +313,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_PMOS_DGS
+# Device_Q_PMOS_DGS
 #
-DEF Device:Q_PMOS_DGS Q 0 0 Y N 1 F N
+DEF Device_Q_PMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_DGS" 200 -50 50 H V L CNN
+F1 "Device_Q_PMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -345,11 +345,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -362,11 +362,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Jumper:SolderJumper_2_Bridged
+# Jumper_SolderJumper_2_Bridged
 #
-DEF Jumper:SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper:SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -385,11 +385,11 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Jumper:SolderJumper_2_Open
+# Jumper_SolderJumper_2_Open
 #
-DEF Jumper:SolderJumper_2_Open JP 0 0 Y N 1 F N
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper:SolderJumper_2_Open" 0 -100 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -407,11 +407,28 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LT1945EMS-PBF:LT1945EMS-PBF
+# My_Library_MCP1663
 #
-DEF LT1945EMS-PBF:LT1945EMS-PBF U 0 10 Y Y 1 F N
+DEF My_Library_MCP1663 U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "My_Library_MCP1663" 0 300 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S 0 150 450 -250 0 1 0 N
+X SW 1 -100 50 100 R 50 50 1 1 B
+X GND 2 -100 -50 100 R 50 50 1 1 I
+X VFB 3 -100 -150 100 R 50 50 1 1 I
+X EN 4 550 -150 100 L 50 50 1 1 I
+X VIN 5 550 50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TouchscreenAdapter-rescue_LT1945EMS-PBF-LT1945EMS-PBF
+#
+DEF TouchscreenAdapter-rescue_LT1945EMS-PBF-LT1945EMS-PBF U 0 10 Y Y 1 F N
 F0 "U" 1300 400 60 H V C CNN
-F1 "LT1945EMS-PBF:LT1945EMS-PBF" 1300 300 60 H V C CNN
+F1 "TouchscreenAdapter-rescue_LT1945EMS-PBF-LT1945EMS-PBF" 1300 300 60 H V C CNN
 F2 "MSOP-10_MS" 1300 240 60 H I C CNN
 F3 "" 800 -50 60 H V C CNN
 $FPLIST
@@ -434,28 +451,11 @@ X PGND 9 2150 -150 300 L 59 59 1 0 W
 ENDDRAW
 ENDDEF
 #
-# My_Library:MCP1663
+# power_GND
 #
-DEF My_Library:MCP1663 U 0 40 Y Y 1 F N
-F0 "U" 0 300 50 H V C CNN
-F1 "My_Library:MCP1663" 0 300 50 H V C CNN
-F2 "" 0 300 50 H I C CNN
-F3 "" 0 300 50 H I C CNN
-DRAW
-S 0 150 450 -250 0 1 0 N
-X SW 1 -100 50 100 R 50 50 1 1 B
-X GND 2 -100 -50 100 R 50 50 1 1 I
-X VFB 3 -100 -150 100 R 50 50 1 1 I
-X EN 4 550 -150 100 L 50 50 1 1 I
-X VIN 5 550 50 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power:GND
-#
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -464,11 +464,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pspice:INDUCTOR
+# pspice_INDUCTOR
 #
-DEF pspice:INDUCTOR L 0 0 N Y 1 F N
+DEF pspice_INDUCTOR L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "pspice:INDUCTOR" 0 -50 50 H V C CNN
+F1 "pspice_INDUCTOR" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
